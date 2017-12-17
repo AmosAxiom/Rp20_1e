@@ -18,26 +18,26 @@ To generate all files, simply run
 make
 ```
 
-##Todo
+## Todo
 -Go through and change all mathematical expressions to actual math.
 -Consistently emphasize skills and special terms wherever they are mentioned in text
 -Custom hyperref links whenever a section is mentioned for ease of navigation
 -Index generation
 -Crafting examples
 
-##Changelog
+## Changelog
 All changes to this project will be logged in this section.
 
 ### [0.7.2] 2017-12-17
-####Added
+#### Added
 -Items Loot and Crafting sections
 
-####Modified
+#### Modified
 -Performance skill can now give skill buffs to other characters
 -other minor changes.
 
 ### [0.7.0] 2017-12-14
-####Added
+#### Added
 -Files for all sections
 -two-page-per-sheet ebook form
 -makefile to easily create ebook form

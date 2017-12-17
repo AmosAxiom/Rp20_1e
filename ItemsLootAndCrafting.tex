@@ -2,60 +2,201 @@
 
 All items have a craft grade which is meant to indicate that it is an average item for a character with a level equal to the craft grade.
 
-All non-cosmetic items have a craft grade of 1 minimum.
+Some items have a craft grade of infinity, which indicates that they are a legendary item.
 
-This chapter needs to be rewritten into the correct sections instead of all being lumped into Base Craft Grade.
+A legendary item cannot be crafted through normal craft checks, and in general, the GM must generate these items for the players.
 
-\section{Base Craft Grade}
-The base craft grade outlines a few broad classes of items
+A good way to figure out the value of currency in a game is to pin 100 of the currency (whatever currency is being used in the campaign) to 1 craft grade. A 1 craft grade item would likely take a base level untrained npc a work day to build, and thus you are also pinning 100 currency to the minimum value of a day of work.
 
-\begin{itemize}
-	\item Every +/-1 change to an attribute costs 2 craft grade
-	\item Every +/-1 change to Reflex, Will, Fortitude, or Initiative costs 1 craft grade
-	\item Every +2 to AC costs 1 craft grade
-	\item Every +2 to a specific skill costs 1 craft grade
+\section{Determining Craft Grade}
+
+Determining the craft grade of an item takes a little while to learn, but once you understand this section you can quickly generate items of an appropriate craft grade.
+
+Since this is slightly complex, this section is written to give a process to step-by-step build an item, starting with a Craft Grade of 0 and adding and subtracting properties.
+
+The general flow of building an item is to choose its properties, change the craft grade based on the magnitude of those properties, and then add buffs or penalties to the rules of those properties and modify the craft grade cost of each.
+
+\subsection{Step 1: Choosing Broad Properties}
+The first step to creating an item is to choose one or more broad properties of what you want your item to do. The default rules for these properties are listed below, but we can change those rules later in the ``Adding Buffs'' and ``Adding Penalties'' steps.
+
+\paragraph{Broad Properties:}
+\begin{description}
+	\item[Changes the wielder's stats]
 	
-\end{itemize}
+	- An item that changes the attributes, saving throws, initiative, armor class, or skill check of the wielder simply applies as long as the wielder is holding it.
+	
+	\item[Changes another character's stats] 
+	
+	- An item that changes the attributes, saving throws, initiative, armor class, or skill check of another character has touch range (can only be used on a character in an adjacent square), takes one action to use, lasts one round by default, and is consumed on use.
+	
+	\item[Does damage dependent on a modifier]
+	
+	- An item that does damage to another character dependent STR, DEX, CON, INT, WIS, or CHA is considered a melee weapon, has a range of 2 feet (equivalent to touch range), and takes one action to attack one target.
+	
+	\item[Does damage not dependent on a modifier]
+	
+	- An item that does damage to another character not dependent on STR, DEX, or any other attribute has a falloff of 10 feet, and either has a cooldown of $\sfrac{1}{2}$ a round or takes two actions to reload before it can do damage again.
+	
+	\item[Automatically Performs a Skill]
+	
+	- An item that automatically performs a skill takes one action to perform and is consumed on use.
+	
+	\item[Automatically Performs a Class Ability]
+	
+	- An item that automatically performs a class ability takes one action to perform and is comsumed on use.
+	
+	\item[Does Anything Else]
+	
+	- An item with any other effect by default takes one action to produce that effect, has a touch range, lasts one round, and is consumed on use.
+\end{description}
 
-Typically increasing your own attributes increases the cost of an item. Decreasing your own attributes (taking a penalty) decreases the cost of an item by half the craft grade it would take to increase them by the same amount, for a maximum craft grade reduction of 3 grades. Items that apply a penalty to someone else AND items that apply a buff both increase the cost of an item.
+You can start building an item by choosing one or more of the above properties. At this point we have not chosen the magnitude of these properties, and our craft grade is still 0. We will choose by how much the item changes stats or does damage in the next step, and begin to change the craft grade at that point.
 
-Items that mimic the performance of a skill in any way (e.g. auto-parrying armor) cost 3 craft grade for each action that the character would otherwise have had to perform to perform the skill, and cost one craft grade for every 4 points on an effective roll that the item makes.
+\subsection{Step 2: Calculating cost from magnitude of effect}
+Now that we've chosen what general properties an item has, we decide the magnitude of those properties, and change the craft grade as follows:
+\begin{description}
+	\item[Attribute changing items:] \hfill
+	\begin{itemize}
+		\item To have the item increase your or someone else's core attributes \emph{increases} the cost by 2 craft grades for every 1 attribute point it increases.
+		\item To have the item decrease someone else's core attributes \emph{increases} the cost by 2 craft grades for every 1 point it decreases an attribute by.
+		\item To have the item decrease your own core attributes \emph{decreases} the cost by 1 craft grade for every point it decreases an attribute by, for up to 2 craft grades of reduction total from decreasing any or multiple attribute.
+		\item To have the item set one of the wielder's core attributes to a certain value, increase the craft grade by $(Attribute)-8$ (you may decrease the craft grade if this number is negative).
+	\end{itemize}
+	\item [Saving Throw and Initiative changing items:] \hfill
+	\begin{itemize}
+		\item To have the item increase your or another character's saving throws or initiative \emph{increases} the cost by 1 craft grade for each point it increases the saving throw or initiative by.
+		\item To have the item decrease another character's saving throws or initiative \emph{increases} the cost by 1 craft grade for each point it increases the saving throw or initiative by.
+		\item To have the item decrease your own saving throws or initiative \emph{decreases} the cost by 1 craft grade for every 2 points it decreases the saving throw or initiative by (craft grade rounded up), for up to 2 craft grades of reduction total from decreasing any or multiple saving throws and/or initiative.
+	\end{itemize}
+	\item[Armor Class and Skill modifying items:] \hfill
+	\begin{itemize}
+		\item To have the item increase your or another character's AC or specific skill check \emph{increases} the cost by 1 craft grade for every 2 points it increases the AC or skill check by (craft grade rounded up).
+		\item To have the item decrease another character's AC or specific skill check \emph{increases} the cost by 1 craft grade for every 2 points it decreases the AC or skill check by (craft grade rounded up).
+		\item To have the item decrease your own character's AC or specific skill check \emph{decreases} the cost by 1 craft grade for every 4 points it decreases the AC by (craft grade rounded up), for up to 2 craft grades of reduction total from decreasing AC and/or skill checks.
+	\end{itemize}
+	\item[Items that do damage:] \hfill
+	\begin{itemize}
+		\item To have the item deal damage based on a dice roll that does not depend on any of the wielder's stats, you simply calculate the theoretical average damage the weapon does over a large number of rolls.
+		
+		You increase the craft grade by $(average damage)/4$ rounded up.
+		
+		An item that is capable of dealing more than 50 damage per craft grade (even if your average is within limits) is automatically legendary and has an infinite craft grade.
+		
+		\item To have the item deal damage based on STR or DEX increases the craft grade based on how much average damage the item deals per modifier point.
+		
+		You increase the craft grade by $(average damage)/(MODIFIER)/2$ rounded up.
+		
+		For a weapon that does not deal damage such that the average damage is linearly dependent on the modifier, calculate $(average damage)/(MODIFIER)/2$ rounded up for every value of the modifier from 1 to 40, and increase the craft grade by the highest value.
+		
+		For an item that is capable of doing $(Damage)/(MODIFIER)$ of more than 40, even if the average damage is considerably less, increase the craft grade to infinity immediately (the item is legendary and cannot be crafted through normal means).
+		
+		\item To have the item deal damage based on CON or WIS follows the rules for STR and DEX, and then costs 3 additional craft grades on top of that.
+		
+		\item To have the item deal damage based on INT or CHA follows the rules for STR and DEX, and then costs 4 additional craft grades on top of that.
+	\end{itemize}
+	\item[Items that produce other effects:] \hfill
+	\begin{itemize}
+		\item To have the item mimic the performance of a skill in any way (e.g. a healing potion) increases the cost by 3 craft grade for the action that the character would otherwise have had to take to perform the skill, and increases the cost by one craft grade for every 5 points on an effective roll that the item makes.
+		\item To have the item mimic class abilities or produce class effects increases the craft grade by the lowest number of levels a character would need to have in that class to produce that effect.
+	
+		If an item can produce multiple effects, but can only produce one at a time, you only need the lowest number of levels needed to produce the effect with the highest level. If an item can produce multiple effects at the same time, you must add the craft grades needed to produce each individual effect.
+	\end{itemize}
+\end{description}
 
-Items that mimic class abilities or produce class effects are dependent on the lowest number of levels a character would need to invest to produce that effect. If an item can produce multiple effects, but can only produce one at a time, you only need the lowest number of levels needed to produce the effect with the highest level. If an item can produce multiple effects at the same time, you must add the craft grades needed to produce each individual effect.
+You should note that in general, increasing your own attributes increases the cost of an item. Decreasing your own attributes (taking a penalty) decreases the cost of an item by half the craft grade it would take to increase them by the same amount, for a maximum craft grade reduction of 2 grades.
 
-Melee weapons do damage including the dex and strength stats. Divide the average damage they do by dex and strength. Every 2 average damage per attribute modifier point is one additional craft grade. A melee weapon that is capable of doing more than 40 damage per attribute modifier point on an ideal roll is automatically legendary and cannot be crafted through normal means.
+At this point, you have assigned the magnitude of effects. Your craft grade may be negative at this point if the wielder takes enough penalties from their item. At this point that is okay.
 
-Ranged weapons do straight damage, and again craft grade is computed by average damage done. For every 8 average damage, it adds one additional craft grade. A ranged weapon may not be capable of dealing more than 40 damage per craft grade even if the average is below 8 per craft grade.
+You may now change the standard rules for each type of item in the next two steps, and adjust the craft grade cost accordingly.
 
-Ranged weapons by default have a falloff of 10, which increases penalty to hit by -2 for every 10 feet (5 spaces), and divides damage in half an additional time for every 10 spaces. To improve falloff by 10 feet, it costs an additional craft grade. Ranged weapons also have a standard cooldown of either ½ a round, or take two actions to reload. Improving the cooldown to the next geometric fraction ($\sfrac{1}{3}$, $\sfrac{1}{4}$, $\sfrac{1}{5}$) or reducing the number of actions needed to reload by one, costs one additional craft grade. You may also increase the cooldown by increments of half a round or increase the number of actions needed to reload by one to decrease the cost of a weapon by one craft grade for up to 3 craft grades of reduction. Burst fire weapons for game mechanical purposes are still treated as if they deal damage in a single instant.
+\subsection{Step 3: Buffs}
+Buffs typically add craft grades to the base craft grades. A list of buffs follows:
+\begin{description}
+	\item[Buffs to Range:] \hfill
+	\begin{itemize}
+		\item To increase the range of melee damage that a weapon does above the base of 2 feet, first take the craft grade cost of the melee damage alone.
+		
+		For every 2 feet of increase in range, increase the craft grade cost of the melee damage by 50\% (rounded up) of the cost it had for a range of 2 feet less. In other words, you increase the craft grade cost of the melee damage by 50\% for every two feet, compounded.
+		
+		\item To increase the range of ranged damage that a weapon does(increase falloff distance), you increase the craft grade cost of the ranged damage by 1 for every 10 feet increase in falloff distance.
+		
+		\item To increase the range of any other touch range effect costs 1 craft grade for every 4 foot increase in range.	
+	\end{itemize}
+	\item[Buffs to Reusability:] \hfill
+	\begin{itemize}
+		\item You may increase the number of uses of an item that is consumed on use by 1 for 1 craft grade for each property that makes it consumed on use.
+		\item You may make an item that is consumed on use infinitely reusable by doubling craft grade cost of all properties that makes it consumed on use.
+	\end{itemize}
+	\item[Buffs to Cooldown/Reload:] \hfill
+	\begin{itemize}
+		\item An item property with a cooldown of 1 round may be increased to either half a round, or changed so that the item must be reloaded in some way that takes two actions.
+		This increases the cost of that property by one craft grade.
+		\item An item property with a cooldown of a geometric fraction of a round ($\sfrac{1}{n}$ of a round) may be improved to the next geometric fraction ($\sfrac{1}{n+1}$) for by increasing the cost of that property by one craft grade.
+		\item An item property that must be reloaded with a certain number of actions before it can be used again can have the number of actions it takes to reload it reduced by one by increasing the cost by one craft grade.
+	\end{itemize}
+	\item[Adding Knockback or Pull:] \hfill
+	\begin{itemize}
+		\item You may add knockback to any item property for a cost of 1 craft grade per 5 feet of knockback or pull.
+		
+		\item If the item itself has no other properties besides knockback or pull, the cost is the same, and by default has a touch range, takes two actions to use, and is reusable infinitely. You may modify this knockback with any buff or penalty in the lists.
+	\end{itemize}
+	\item[Adding Area of Effect:] \hfill
+	
+	AOE effects have a distance within which they have a full effect, and a distance double that in which they have half the effect.
+	\begin{itemize}
+		\item To make a property have a spherical area of effect, you double the craft grade cost of the property for every additional 4 feet (2 spaces) of full effect distance.
+		\item To make a property have a conical area of effect (cones have a 45\degree   aperture), you increase the craft grade cost of the property by 50\% (rounded up) for every 6 feet (3 spaces) of full effect distance.
+		\item To make a property have a linear area of effect, you add 1 craft grade for every 6 feet (3 spaces) of full effect distance. A linear area of effect is actually a cylinder of diameter 1 space whose axis extends out in the direction your character aims it.
+		\item To have an AOE property distinguish between friend and foe within it, double the craft grade cost of the property AFTER adding all AOE effects to it.
+	\end{itemize}
+\end{description}
 
-Healing items require 1 craft grade for each 2d6 healing they provide.
+Knockback?
 
 AOE effects typically have a radius in which they have a full effect, and a radius double that in which they have a half effect. To make any effect AOE, add a craft grade for every 4 feet (2 spaces) of full effect radius.
 
-Typically if a bonus is conditional upon something for its value, it still costs the number of craft grades you would need for the maximum possible bonus. A penalty only reduces the craft grade by the number of craft grades the minimum penalty would reduce the cost by. If the theoretical maximum bonus is infinite, it’s a legendary item. However depending on what the penalties and bonuses are conditional upon, you must further modify the number of craft grades with the following:
+\subsection{Step 4: Penalties}
+Penalties can subtract some craft grades from the base items. A list of penalties follows:
+\begin{description}
+	\item[Penalties to Range:] \hfill
+	\begin{itemize}
+		\item You may reduce the range of any non-weapon-damage item property (mostly class ability mimicry) by 4 feet to reduce the cost of the property by 1 craft grade.
+	\end{itemize}
+	\item[Penalties to Cooldown/Reload:] \hfill
+	\begin{itemize}
+		\item An item property which may be only activated once per round may be increased to multiple rounds to decrease the property cost by 1 craft grade per round increase for a maximum reduction of 3 craft grades from increasing cooldown.
+	\end{itemize}
+	\item[Reducing Area of Effect:] \hfill
+	\begin{itemize}
+		\item An item property with an area of effect may halve the radius of its effect to halve the craft grade cost of the property.
+	\end{itemize}
+	\item[Taking Self-Damage:] \hfill
+	\begin{itemize}
+		\item You may set an item property to deal damage to the wielder on activation. The craft grade reduction is dependent on the average damage the item deals to the wielder. You may reduce the craft grade by $(Averagedamage)/8$ rounded down.
+	\end{itemize}
+	\item[Taking Self-Knockback:] \hfill
+	\begin{itemize}
+		\item You may set an item property to deal knockback to the wielder on activation. The knockback is in the opposite direction that the wielder is facing. For every 10 feet of knockback, you may reduce the craft grade by 1.
+	\end{itemize}
+\end{description}
 
-Making a bonus conditional upon a successful roll of any kind reduces the cost by 1 craft grade. Making a bonus conditional upon a failed roll of any kind increases the cost by 1 craft grade.
+\subsection{Step 5: Conditionality}
+The very last step is to add any conditionality you wanted to the item, which is fairly simple.
 
-Making a penalty conditional upon a failed roll of any kind reduces the cost by 1 craft grade. Making a penalty conditional upon a successful roll increases the cost by one craft grade. These are not including the reduction to craft grade from the penalty itself.
+\begin{itemize}
+\item Any item property can be made conditional upon a successful roll by the wielder of any kind. This reduces the cost by 1 craft grade by each successful roll needed before the item property takes effect for a maximum reduction of 2 craft grades from conditional success. The one exception to this is that non-AOE damage does not receive craft grade reduction from being conditional on its own attack roll, although it \emph{can} receive craft grade reduction from being conditional on \emph{previous} rolls.
 
-A good way to figure out the value of currency in a game is to pin 100 of the currency (whatever currency is being used in the campaign) to 1 craft grade.
+\item Any item property can be made conditional upon a failed roll by the wielder of any kind. This increases the cost by one craft grade, no matter how many failures are necessary for the property to activate.
 
-Self damage to reduce craft grade?
+\item Any item property can be made conditional upon a failed roll by another character against the wielder. This reduces the craft grade by 1 for each failed roll required before the property is activated.
 
-Conditional penalties and craft grade reduction?
-conditionality based on your success, your failure, someone else's success against you, someone else's failure against you.
-
-\section{Buffs}
-Buffs add craft grades to the base craft grades.
-
-\section{Penalties}
-Penalties can subtract some craft grades from the base items.
-
-\section{Conditionality}
+\item Any item property can be made conditional upon a successful roll by another character against the wielder. This increases the craft grade by 1, regardless of how many successes are needed for the property to activate.
+\end{itemize}
 
 \section{Examples}
 Craft grades are probably the most complex set of rules in Rp20 when you first encounter them, so here are a few example items to demonstrate how craft grade is calculated.
+
+Hahaha just kidding, I still have to write these.
 
 \section{Crafting}
 To craft an item, a Character must roll a craft check with at least $10 \times (Grade)$ to succeed.

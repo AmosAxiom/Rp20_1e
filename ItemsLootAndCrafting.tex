@@ -50,6 +50,8 @@ The first step to creating an item is to choose one or more broad properties of 
 	- An item with any other effect by default takes one action to produce that effect, has a touch range, lasts one round, and is consumed on use.
 \end{description}
 
+By default, any item property that makes the item consumed on use overrides reusability from any other property.
+
 You can start building an item by choosing one or more of the above properties. At this point we have not chosen the magnitude of these properties, and our craft grade is still 0. We will choose by how much the item changes stats or does damage in the next step, and begin to change the craft grade at that point.
 
 \subsection{Step 2: Calculating cost from magnitude of effect}
@@ -164,10 +166,22 @@ Penalties can subtract some craft grades from the base items. A list of penaltie
 	\item[Penalties to Range:] \hfill
 	\begin{itemize}
 		\item You may reduce the range of any non-weapon-damage item property (mostly class ability mimicry) by 4 feet to reduce the cost of the property by 1 craft grade.
+		\item You may reduce the falloff of a ranged weapon damage type property from 10 feet to 4 feet to reduce the cost of the property by 1 craft grade.
+		\item You may reduce the range of a ranged weapon damage property that has a falloff of 4 feet to touch range. Reducing the range to touch range cuts the craft grade cost of the property in half.
 	\end{itemize}
 	\item[Penalties to Cooldown/Reload:] \hfill
 	\begin{itemize}
 		\item An item property which may be only activated once per round may be increased to multiple rounds to decrease the property cost by 1 craft grade per round increase for a maximum reduction of 3 craft grades from increasing cooldown.
+	\end{itemize}
+	\item[Penalties to Reusability:] \hfill
+	\begin{itemize}
+		\item You may make an item that is infinitely reusable a one-time use item, and this cuts the total Craft Grade in half (rounded up).
+		\item You may alternatively make an item property that is infinitely reusable require some sort of ammo or resource to function.
+		
+		The ammo now costs craft grades to manufacture. You calculate the craft grade of 4 ammo by determining the craft grade of the infinitely reusable property if its range is reduced to touch range.
+		
+		After calculating the craft grade cost of ammo, subtract the craft grade cost of the ammo from the craft grade cost of the item.
+		You may craft 4 ammo later as if it were a single item of the calculated cost.
 	\end{itemize}
 	\item[Reducing Area of Effect:] \hfill
 	\begin{itemize}

@@ -113,13 +113,15 @@ For instance, for most situations, your core attributes are distilled into modif
 Veteran roleplayers will notice that Rp20 minimizes randomness in these calculated attributes. The GM may still ask you to adjust them for balance regardless.
 
 \section{Skills}
-We've mentioned skills a few times now, without really going into too much detail of how they work. Every character has a set of skills. If you’ve played other roleplaying systems, skills are done the standard way. You can put a number of skill points into any skill. The max number of points you can put into any skill is equal to twice your character level. Whenever you try to perform the skill, you roll $$\dice{1}{20} + \stat{Skill Points} + \stat{Modifier}$$ and the GM compares it against the difficulty of the skill to determine if you are successful and how successful you are.
+We've mentioned skills a few times now, without really going into too much detail of how they work. Every character has a set of skills. If you’ve played other roleplaying systems, skills are done the standard way. You can put a number of skill points into any skill. The max number of points you can put into any skill is equal to $6+(2\times \stat{Character Level})$.
 
-All characters, at level 1, start with 10 \textsc{Skill Points} to invest into any skills they choose. With each character level you gain, you may add a number of points equal to your \textsc{Int} modifier and distribute them among skills as you see fit.
+Whenever you try to perform the skill, you roll $$\dice{1}{20} + \stat{Skill Points} + \stat{Modifier}$$ and the GM compares it against the difficulty of the skill to determine if you are successful and how successful you are.
+
+All characters, at level 1, start with 10 \textsc{Skill Points} to invest into any skills they choose. With each character level you gain, you may add a number of points equal to your \textsc{Int} modifier and distribute them among skills as you see fit. You are also allowed to save skill points from a character level increase and invest them later.
 
 You will add a minimum of 1 skill point for every \textsc{Character Level} you gain, that is to say- characters with a negative \textsc{Int} modifier or a modifier of 0 still receive 1 point with each level gained. You may not remove skill points from a skill once you have invested in it, unless given explicit permission from the GM.
 
-By default the limit to how many \textsc{Skill Points} you may put in a skill is twice your character level, but your GM may decide to limit the maximum number of points to your character level, or choose another limit. Note that you do not receive additional skill points if you invested your level in a class level, you only receive these points for investing in a \textsc{Character Level}.
+By default the limit to how many \textsc{Skill Points} you may put in a skill is $6+(2\times \stat{Character Level})$, but your GM may decide to limit the maximum number of points to your character level, or choose another limit. Note that you do not receive additional skill points if you invested your level in a class level, you only receive these points for investing in a \textsc{Character Level}.
 
 There is technically no restriction on what kind of skill you can give your character points in, but they should not be too broad. This is up to GM discretion.
 
@@ -265,9 +267,13 @@ Putting a proficiency on multi-wield skill lets you treat the penalty as if you 
 
 \item[Grapple/Escape Artist] [\textsc{Str}/\textsc{Dex}] - Grapple is a special skill simply because it can use one of two attributes. Your character can choose to use whether to use Str or Dex at the time of using the skill, and the bonus from skill points applies regardless of which attribute is used.
 
-The grapple skill can be used to disarm a character, both to initiate a grapple or a hold on another character, or to escape a grapple or hold that another character has on your character. Grappling is described further in the ``Combat'' section.
+The grapple skill can be used to disarm a character, to initiate a grapple or a hold on another character, to escape a grapple or hold that another character has on your character, or even to carry or move a character. Grappling is described further in the ``Combat'' section.
 
-The grapple skill is actually also used when tying up or binding another character, and when trying to escape from binds that another character has placed on yours.
+Grapple is also used to carry or move heavy items. The weight you can lift is determined by $\stat{Grapple Check} \times 5$ pounds. The weight you can drag along the floor is determined by $\stat{Grapple Check} \times 20$ pounds. When carrying or dragging an object, you cannot perform any actions except moving, and you must make a new grapple check at the beginning of each round. The number of spaces you can throw an object is $$\frac{2\times \stat{Grapple Check}}{ \stat{Object Weight} }$$ rounded down, where \textsc{Object Weight} is in pounds.
+
+Note that if an object would have been thrown 10 additional feet (5 spaces) or more from where it impacts another object, it will take falling damage.
+
+The grapple skill is also used when tying up or binding another character, and when trying to escape from binds that another character has placed on yours.
 \end{description}
 
 \section{Affinity}

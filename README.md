@@ -31,14 +31,20 @@ make
 ```
 
 ## Todo
-- Go through and change all mathematical expressions to actual math.
-- Consistently emphasize skills and special terms wherever they are mentioned in text
 - Custom hyperref links whenever a section is mentioned for ease of navigation
 - Index generation
 - Crafting examples
 
 ## Changelog
 All changes to this project will be logged in this section.
+
+### [0.7.4] 2017-12-17
+#### Added
+- Crafting - penalties now has rules for ammunition.
+
+#### Modified
+- Amended Grapple rules.
+- Changed skill cap limit to 6+(2*{Character Level})
 
 ### [0.7.3] 2017-12-17
 #### Added

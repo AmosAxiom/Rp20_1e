@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.13)  17 DEC 2017 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.13)  17 DEC 2017 22:27
 entering extended mode
 **./Rp20_1e_ebookform.tex
 (Rp20_1e_ebookform.tex
@@ -741,7 +741,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [10 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=227, page=21, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=222, page=21, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 21>
 Package pdftex.def Info: Rp20_1e.pdf , page21 used on input line 11. on input l
@@ -756,7 +756,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=228, page=22, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=223, page=22, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 22>
 Package pdftex.def Info: Rp20_1e.pdf , page22 used on input line 11. on input l
@@ -1711,7 +1711,7 @@ blic/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/l
 circle1.pfb>
-Output written on Rp20_1e_ebookform.pdf (31 pages, 293780 bytes).
+Output written on Rp20_1e_ebookform.pdf (31 pages, 296686 bytes).
 PDF statistics:
  378 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)

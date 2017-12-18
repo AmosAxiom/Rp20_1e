@@ -60,7 +60,7 @@ Now that we've chosen what general properties an item has, we decide the magnitu
 		\item To have the item increase your or someone else's core attributes \emph{increases} the cost by 2 craft grades for every 1 attribute point it increases.
 		\item To have the item decrease someone else's core attributes \emph{increases} the cost by 2 craft grades for every 1 point it decreases an attribute by.
 		\item To have the item decrease your own core attributes \emph{decreases} the cost by 1 craft grade for every point it decreases an attribute by, for up to 2 craft grades of reduction total from decreasing any or multiple attribute.
-		\item To have the item set one of the wielder's core attributes to a certain value, increase the craft grade by $(Attribute)-8$ (you may decrease the craft grade if this number is negative).
+		\item To have the item set one of the wielder's core attributes to a certain value, increase the craft grade by $\stat{Attribute}-8$ (you may decrease the craft grade if this number is negative).
 	\end{itemize}
 	\item [Saving Throw and Initiative changing items:] \hfill
 	\begin{itemize}
@@ -78,25 +78,26 @@ Now that we've chosen what general properties an item has, we decide the magnitu
 	\begin{itemize}
 		\item To have the item deal damage based on a dice roll that does not depend on any of the wielder's stats, you simply calculate the theoretical average damage the weapon does over a large number of rolls.
 		
-		You increase the craft grade by $(average damage)/4$ rounded up.
+		You increase the craft grade by $(\stat{Average Damage}/4$ rounded up.
 		
 		An item that is capable of dealing more than 50 damage per craft grade (even if your average is within limits) is automatically legendary and has an infinite craft grade.
 		
-		\item To have the item deal damage based on STR or DEX increases the craft grade based on how much average damage the item deals per modifier point.
+		\item To have the item deal damage based on \textsc{Str} or \textsc{Dex} increases the craft grade based on how much average damage the item deals per modifier point.
 		
-		You increase the craft grade by $(average damage)/(MODIFIER)/2$ rounded up.
+		You increase the craft grade by $$\frac{\stat{Average Damage} }{\stat{Modifier}} \times \frac 1 2$$ rounded up.
 		
-		For a weapon that does not deal damage such that the average damage is linearly dependent on the modifier, calculate $(average damage)/(MODIFIER)/2$ rounded up for every value of the modifier from 1 to 40, and increase the craft grade by the highest value.
+		For a weapon that does not deal damage such that the average damage is linearly dependent on the modifier, calculate $$\frac{\stat{Average Damage} }{\stat{Modifier}} \times \frac 1 2$$ rounded up for every value of the modifier from 1 to 40, and increase the craft grade by the highest value.
 		
-		For an item that is capable of doing $(Damage)/(MODIFIER)$ of more than 40, even if the average damage is considerably less, increase the craft grade to infinity immediately (the item is legendary and cannot be crafted through normal means).
+		For an item that is capable of doing $\stat{Damage}/\stat{Modifier}$ of more than 40, even if the average damage is considerably less, increase the craft grade to infinity immediately (the item is legendary and cannot be crafted through normal means).
 		
-		\item To have the item deal damage based on CON or WIS follows the rules for STR and DEX, and then costs 3 additional craft grades on top of that.
+		\item To have the item deal damage based on \textsc{Con} or \textsc{Wis} follows the rules for STR and DEX, and then costs 3 additional craft grades on top of that.
 		
-		\item To have the item deal damage based on INT or CHA follows the rules for STR and DEX, and then costs 4 additional craft grades on top of that.
+		\item To have the item deal damage based on \textsc{Int} or \textsc{Cha} follows the rules for \textsc{Str} and \textsc{Dex}, and then costs 4 additional craft grades on top of that.
 	\end{itemize}
 	\item[Items that produce other effects:] \hfill
 	\begin{itemize}
-		\item To have the item mimic the performance of a skill in any way (e.g. a healing potion) increases the cost by 3 craft grade for the action that the character would otherwise have had to take to perform the skill, and increases the cost by one craft grade for every 5 points on an effective roll that the item makes.
+		\item To have the item mimic the performance of a skill in any way (e.g. a healing potion) increases the cost by 2 craft grade for the action that the character would otherwise have had to take to perform the skill, and increases the cost by one craft grade for every 5 points on an effective roll that the item makes.
+		
 		\item To have the item mimic class abilities or produce class effects increases the craft grade by the lowest number of levels a character would need to have in that class to produce that effect.
 	
 		If an item can produce multiple effects, but can only produce one at a time, you only need the lowest number of levels needed to produce the effect with the highest level. If an item can produce multiple effects at the same time, you must add the craft grades needed to produce each individual effect.
@@ -149,11 +150,13 @@ Buffs typically add craft grades to the base craft grades. A list of buffs follo
 		\item To make a property have a linear area of effect, you add 1 craft grade for every 6 feet (3 spaces) of full effect distance. A linear area of effect is actually a cylinder of diameter 1 space whose axis extends out in the direction your character aims it.
 		\item To have an AOE property distinguish between friend and foe within it, double the craft grade cost of the property AFTER adding all AOE effects to it.
 	\end{itemize}
+	\item[Adding Hitpoints:] \hfill
+	\begin{itemize}
+		\item By default, an item has a number of hitpoints equal to twice its craft grade. However, you can add additional hitpoints above that, which increases the cost by 1 craft grade for every 9 hitpoints.
+		
+		Note that hitpoints added this way do not affect the performance of the Break skill. Break still depends on the number of craft grades for items, not the number of hitpoints. 
+	\end{itemize}
 \end{description}
-
-Knockback?
-
-AOE effects typically have a radius in which they have a full effect, and a radius double that in which they have a half effect. To make any effect AOE, add a craft grade for every 4 feet (2 spaces) of full effect radius.
 
 \subsection{Step 4: Penalties}
 Penalties can subtract some craft grades from the base items. A list of penalties follows:
@@ -172,7 +175,7 @@ Penalties can subtract some craft grades from the base items. A list of penaltie
 	\end{itemize}
 	\item[Taking Self-Damage:] \hfill
 	\begin{itemize}
-		\item You may set an item property to deal damage to the wielder on activation. The craft grade reduction is dependent on the average damage the item deals to the wielder. You may reduce the craft grade by $(Averagedamage)/8$ rounded down.
+		\item You may set an item property to deal damage to the wielder on activation. The craft grade reduction is dependent on the average damage the item deals to the wielder. You may reduce the craft grade by $\stat{Average Damage}/8$ rounded down.
 	\end{itemize}
 	\item[Taking Self-Knockback:] \hfill
 	\begin{itemize}
@@ -193,17 +196,28 @@ The very last step is to add any conditionality you wanted to the item, which is
 \item Any item property can be made conditional upon a successful roll by another character against the wielder. This increases the craft grade by 1, regardless of how many successes are needed for the property to activate.
 \end{itemize}
 
+\subsection{Finalizing your Item}
+The very final step in crafting an item is to make sure the craft grade is not 0 or less.
+
+Any non-cosmetic item at this point should have a minimum craft grade of 1, even if the craft grade cost has been reduced to below 0 by adding penalties.
+
+That's it! You've finished creating an item.
+
 \section{Examples}
 Craft grades are probably the most complex set of rules in Rp20 when you first encounter them, so here are a few example items to demonstrate how craft grade is calculated.
 
 Hahaha just kidding, I still have to write these.
 
 \section{Crafting}
-To craft an item, a Character must roll a craft check with at least $10 \times (Grade)$ to succeed.
+To craft an item, a Character must roll a craft check with at least $10 \times \stat{Craft Grade}$ to succeed.
 
 Typically, an item of craft grade $n$ takes $n \times 8$ hours to craft. However, for every 10 on a craft check that a character rolls ABOVE the minimum craft grade, the amount of time needed to craft the item is cut in half.
+
+Though it's been mentioned that the type of crafting skill your character has is mostly flavor text, it \emph{is} ultimately up to your GM whether or not that particular skill will allow you to craft a certain type of item.
+
+It is also up to your GM to determine what components are needed to craft an item, and if your character does not have the components available, the item cannot be crafted.
 
 \section{Loot Guidelines}
 Average loot has a craft grade equal to the character level.
 
-Really good loot might go up to 4 more craft grade than the current character level. It is not recommended to give characters more than 4 craft grades above the current character level.
+Really good loot might go up to 5 more craft grade than the current character level. It is not recommended to give characters more than 5 craft grades above the current character level.

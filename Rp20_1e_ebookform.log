@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.13)  17 DEC 2017 00:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.13)  17 DEC 2017 16:15
 entering extended mode
 **./Rp20_1e_ebookform.tex
 (Rp20_1e_ebookform.tex
@@ -380,7 +380,7 @@ Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
 
 (Rp20_1e.pax) [2 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=145, page=5, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=161, page=5, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 5>
 Package pdftex.def Info: Rp20_1e.pdf , page5 used on input line 11. on input li
@@ -395,7 +395,7 @@ ne 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=146, page=6, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=162, page=6, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 6>
 Package pdftex.def Info: Rp20_1e.pdf , page6 used on input line 11. on input li
@@ -425,7 +425,7 @@ ne 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [3 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=150, page=7, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=166, page=7, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 7>
 Package pdftex.def Info: Rp20_1e.pdf , page7 used on input line 11. on input li
@@ -440,7 +440,7 @@ ne 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=151, page=8, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=167, page=8, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 8>
 Package pdftex.def Info: Rp20_1e.pdf , page8 used on input line 11. on input li
@@ -470,7 +470,7 @@ ne 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [4 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=155, page=9, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=186, page=9, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 9>
 Package pdftex.def Info: Rp20_1e.pdf , page9 used on input line 11. on input li
@@ -486,7 +486,7 @@ Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
 
 (Rp20_1e.pax)
-<Rp20_1e.pdf, id=156, page=10, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=187, page=10, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 10>
 Package pdftex.def Info: Rp20_1e.pdf , page10 used on input line 11. on input l
@@ -515,7 +515,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [5 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=160, page=11, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=191, page=11, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 11>
 Package pdftex.def Info: Rp20_1e.pdf , page11 used on input line 11. on input l
@@ -530,7 +530,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=161, page=12, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=192, page=12, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 12>
 Package pdftex.def Info: Rp20_1e.pdf , page12 used on input line 11. on input l
@@ -560,7 +560,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [6 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=175, page=13, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=201, page=13, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 13>
 Package pdftex.def Info: Rp20_1e.pdf , page13 used on input line 11. on input l
@@ -576,7 +576,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=176, page=14, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=202, page=14, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 14>
 Package pdftex.def Info: Rp20_1e.pdf , page14 used on input line 11. on input l
@@ -606,7 +606,7 @@ Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
 
 (Rp20_1e.pax) [7 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=181, page=15, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=207, page=15, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 15>
 Package pdftex.def Info: Rp20_1e.pdf , page15 used on input line 11. on input l
@@ -621,7 +621,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=182, page=16, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=208, page=16, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 16>
 Package pdftex.def Info: Rp20_1e.pdf , page16 used on input line 11. on input l
@@ -651,7 +651,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [8 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=186, page=17, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=212, page=17, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 17>
 Package pdftex.def Info: Rp20_1e.pdf , page17 used on input line 11. on input l
@@ -666,7 +666,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=187, page=18, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=213, page=18, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 18>
 Package pdftex.def Info: Rp20_1e.pdf , page18 used on input line 11. on input l
@@ -696,7 +696,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [9 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=191, page=19, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=217, page=19, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 19>
 Package pdftex.def Info: Rp20_1e.pdf , page19 used on input line 11. on input l
@@ -712,7 +712,7 @@ Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
 
 (Rp20_1e.pax)
-<Rp20_1e.pdf, id=192, page=20, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=218, page=20, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 20>
 Package pdftex.def Info: Rp20_1e.pdf , page20 used on input line 11. on input l
@@ -741,7 +741,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [10 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=196, page=21, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=227, page=21, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 21>
 Package pdftex.def Info: Rp20_1e.pdf , page21 used on input line 11. on input l
@@ -756,7 +756,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=197, page=22, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=228, page=22, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 22>
 Package pdftex.def Info: Rp20_1e.pdf , page22 used on input line 11. on input l
@@ -786,7 +786,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [11 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=201, page=23, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=232, page=23, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 23>
 Package pdftex.def Info: Rp20_1e.pdf , page23 used on input line 11. on input l
@@ -802,7 +802,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=202, page=24, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=233, page=24, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 24>
 Package pdftex.def Info: Rp20_1e.pdf , page24 used on input line 11. on input l
@@ -832,7 +832,7 @@ Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
 
 (Rp20_1e.pax) [12 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=206, page=25, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=237, page=25, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 25>
 Package pdftex.def Info: Rp20_1e.pdf , page25 used on input line 11. on input l
@@ -847,7 +847,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=207, page=26, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=238, page=26, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 26>
 Package pdftex.def Info: Rp20_1e.pdf , page26 used on input line 11. on input l
@@ -877,7 +877,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [13 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=212, page=27, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=243, page=27, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 27>
 Package pdftex.def Info: Rp20_1e.pdf , page27 used on input line 11. on input l
@@ -892,7 +892,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=213, page=28, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=244, page=28, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 28>
 Package pdftex.def Info: Rp20_1e.pdf , page28 used on input line 11. on input l
@@ -922,7 +922,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [14 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=217, page=29, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=248, page=29, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 29>
 Package pdftex.def Info: Rp20_1e.pdf , page29 used on input line 11. on input l
@@ -938,7 +938,7 @@ Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
 
 (Rp20_1e.pax)
-<Rp20_1e.pdf, id=218, page=30, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=249, page=30, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 30>
 Package pdftex.def Info: Rp20_1e.pdf , page30 used on input line 11. on input l
@@ -967,7 +967,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [15 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=222, page=31, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=253, page=31, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 31>
 Package pdftex.def Info: Rp20_1e.pdf , page31 used on input line 11. on input l
@@ -982,7 +982,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=223, page=32, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=254, page=32, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 32>
 Package pdftex.def Info: Rp20_1e.pdf , page32 used on input line 11. on input l
@@ -1012,7 +1012,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [16 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=227, page=33, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=258, page=33, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 33>
 Package pdftex.def Info: Rp20_1e.pdf , page33 used on input line 11. on input l
@@ -1028,7 +1028,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=228, page=34, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=259, page=34, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 34>
 Package pdftex.def Info: Rp20_1e.pdf , page34 used on input line 11. on input l
@@ -1058,7 +1058,7 @@ Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
 
 (Rp20_1e.pax) [17 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=232, page=35, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=263, page=35, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 35>
 Package pdftex.def Info: Rp20_1e.pdf , page35 used on input line 11. on input l
@@ -1073,7 +1073,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=233, page=36, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=264, page=36, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 36>
 Package pdftex.def Info: Rp20_1e.pdf , page36 used on input line 11. on input l
@@ -1103,7 +1103,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [18 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=243, page=37, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=268, page=37, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 37>
 Package pdftex.def Info: Rp20_1e.pdf , page37 used on input line 11. on input l
@@ -1118,7 +1118,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=244, page=38, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=269, page=38, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 38>
 Package pdftex.def Info: Rp20_1e.pdf , page38 used on input line 11. on input l
@@ -1148,7 +1148,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [19 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=249, page=39, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=280, page=39, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 39>
 Package pdftex.def Info: Rp20_1e.pdf , page39 used on input line 11. on input l
@@ -1164,7 +1164,7 @@ Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
 
 (Rp20_1e.pax)
-<Rp20_1e.pdf, id=250, page=40, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=281, page=40, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 40>
 Package pdftex.def Info: Rp20_1e.pdf , page40 used on input line 11. on input l
@@ -1193,7 +1193,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [20 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=254, page=41, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=285, page=41, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 41>
 Package pdftex.def Info: Rp20_1e.pdf , page41 used on input line 11. on input l
@@ -1208,7 +1208,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=255, page=42, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=286, page=42, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 42>
 Package pdftex.def Info: Rp20_1e.pdf , page42 used on input line 11. on input l
@@ -1238,7 +1238,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [21 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=259, page=43, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=290, page=43, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 43>
 Package pdftex.def Info: Rp20_1e.pdf , page43 used on input line 11. on input l
@@ -1254,7 +1254,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=260, page=44, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=291, page=44, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 44>
 Package pdftex.def Info: Rp20_1e.pdf , page44 used on input line 11. on input l
@@ -1284,7 +1284,7 @@ Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
 
 (Rp20_1e.pax) [22 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=274, page=45, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=295, page=45, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 45>
 Package pdftex.def Info: Rp20_1e.pdf , page45 used on input line 11. on input l
@@ -1299,7 +1299,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=275, page=46, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=296, page=46, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 46>
 Package pdftex.def Info: Rp20_1e.pdf , page46 used on input line 11. on input l
@@ -1329,7 +1329,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [23 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=279, page=47, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=300, page=47, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 47>
 Package pdftex.def Info: Rp20_1e.pdf , page47 used on input line 11. on input l
@@ -1344,7 +1344,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=280, page=48, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=301, page=48, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 48>
 Package pdftex.def Info: Rp20_1e.pdf , page48 used on input line 11. on input l
@@ -1374,7 +1374,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [24 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=284, page=49, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=310, page=49, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 49>
 Package pdftex.def Info: Rp20_1e.pdf , page49 used on input line 11. on input l
@@ -1390,7 +1390,7 @@ Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
 
 (Rp20_1e.pax)
-<Rp20_1e.pdf, id=285, page=50, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=311, page=50, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 50>
 Package pdftex.def Info: Rp20_1e.pdf , page50 used on input line 11. on input l
@@ -1419,7 +1419,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [25 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=295, page=51, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=316, page=51, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 51>
 Package pdftex.def Info: Rp20_1e.pdf , page51 used on input line 11. on input l
@@ -1434,7 +1434,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=296, page=52, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=317, page=52, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 52>
 Package pdftex.def Info: Rp20_1e.pdf , page52 used on input line 11. on input l
@@ -1464,7 +1464,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax) [26 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=300, page=53, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=321, page=53, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 53>
 Package pdftex.def Info: Rp20_1e.pdf , page53 used on input line 11. on input l
@@ -1480,7 +1480,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=301, page=54, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=322, page=54, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 54>
 Package pdftex.def Info: Rp20_1e.pdf , page54 used on input line 11. on input l
@@ -1510,7 +1510,7 @@ Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
 
 (Rp20_1e.pax) [27 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
-<Rp20_1e.pdf, id=305, page=55, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=331, page=55, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 55>
 Package pdftex.def Info: Rp20_1e.pdf , page55 used on input line 11. on input l
@@ -1525,7 +1525,7 @@ ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
  (Rp20_1e.pax)
-<Rp20_1e.pdf, id=306, page=56, pagebox=cropbox, 483.6971pt x 682.86618pt>
+<Rp20_1e.pdf, id=332, page=56, pagebox=cropbox, 483.6971pt x 682.86618pt>
 File: Rp20_1e.pdf Graphic file (type pdf)
 <use Rp20_1e.pdf, page 56>
 Package pdftex.def Info: Rp20_1e.pdf , page56 used on input line 11. on input l
@@ -1554,29 +1554,166 @@ Package pdftex.def Info: Rp20_1e.pdf , page56 used on input line 11. on input l
 ine 11.
 Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
  11.
- (Rp20_1e.pax) [28 <./Rp20_1e.pdf> <./Rp20_1e.pdf>] (Rp20_1e_ebookform.aux) ) 
+ (Rp20_1e.pax) [28 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
+<Rp20_1e.pdf, id=336, page=57, pagebox=cropbox, 483.6971pt x 682.86618pt>
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 57>
+Package pdftex.def Info: Rp20_1e.pdf , page57 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax)
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 57>
+Package pdftex.def Info: Rp20_1e.pdf , page57 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax)
+<Rp20_1e.pdf, id=337, page=58, pagebox=cropbox, 483.6971pt x 682.86618pt>
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 58>
+Package pdftex.def Info: Rp20_1e.pdf , page58 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax)
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 58>
+Package pdftex.def Info: Rp20_1e.pdf , page58 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax)
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 57>
+Package pdftex.def Info: Rp20_1e.pdf , page57 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+
+(Rp20_1e.pax)
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 58>
+Package pdftex.def Info: Rp20_1e.pdf , page58 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax) [29 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
+<Rp20_1e.pdf, id=341, page=59, pagebox=cropbox, 483.6971pt x 682.86618pt>
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 59>
+Package pdftex.def Info: Rp20_1e.pdf , page59 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax)
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 59>
+Package pdftex.def Info: Rp20_1e.pdf , page59 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+
+(Rp20_1e.pax)
+<Rp20_1e.pdf, id=342, page=60, pagebox=cropbox, 483.6971pt x 682.86618pt>
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 60>
+Package pdftex.def Info: Rp20_1e.pdf , page60 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax)
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 60>
+Package pdftex.def Info: Rp20_1e.pdf , page60 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax)
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 59>
+Package pdftex.def Info: Rp20_1e.pdf , page59 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax)
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 60>
+Package pdftex.def Info: Rp20_1e.pdf , page60 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax) [30 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
+<Rp20_1e.pdf, id=346, page=61, pagebox=cropbox, 483.6971pt x 682.86618pt>
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 61>
+Package pdftex.def Info: Rp20_1e.pdf , page61 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax)
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 61>
+Package pdftex.def Info: Rp20_1e.pdf , page61 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax)
+<Rp20_1e.pdf, id=347, page=62, pagebox=cropbox, 483.6971pt x 682.86618pt>
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 62>
+Package pdftex.def Info: Rp20_1e.pdf , page62 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax)
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 62>
+Package pdftex.def Info: Rp20_1e.pdf , page62 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+
+(Rp20_1e.pax)
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 61>
+Package pdftex.def Info: Rp20_1e.pdf , page61 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax)
+File: Rp20_1e.pdf Graphic file (type pdf)
+<use Rp20_1e.pdf, page 62>
+Package pdftex.def Info: Rp20_1e.pdf , page62 used on input line 11. on input l
+ine 11.
+Package pdftex.def Info: Requested size: 483.69592pt x 682.8645pt on input line
+ 11.
+ (Rp20_1e.pax) [31 <./Rp20_1e.pdf> <./Rp20_1e.pdf>]
+(Rp20_1e_ebookform.aux) ) 
 Here is how much of TeX's memory you used:
- 4064 strings out of 493312
- 66365 string characters out of 3138898
- 123116 words of memory out of 3000000
- 7200 multiletter control sequences out of 15000+200000
+ 4124 strings out of 493312
+ 68054 string characters out of 3138898
+ 123133 words of memory out of 3000000
+ 7220 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,50p,266b,440s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb>
-
-Output written on Rp20_1e_ebookform.pdf (28 pages, 258094 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+csc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/l
+circle1.pfb>
+Output written on Rp20_1e_ebookform.pdf (31 pages, 293780 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 296 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 378 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

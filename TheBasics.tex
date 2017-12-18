@@ -11,58 +11,67 @@ Characters have many attributes, from the broadly applicable core attributes tha
 You’ll notice that for many calculations, integer numbers are divided. Unless otherwise specified, upon dividing a number, round towards zero to the nearest integer.
 
 \section{Core Attributes}
-Rp20 uses the same core attributes found in many roleplaying systems: Strength, Constitution, Dexterity, Intelligence, Wisdom, Charisma. The corresponding modifiers for these are written Str, Con, Dex, Int, Wis, Cha. Three of these are physical– Str, Con, and Dex. The other three are mental– Int, Wis, and Cha.
+Rp20 uses the same core \textsc{Attribute}s found in many roleplaying systems: \textsc{Strength}, \textsc{Constitution}, \textsc{Dexterity}, \textsc{Intelligence}, \textsc{Wisdom}, and \textsc{Charisma}. Three of these are considered physical - \textsc{Strength}, \textsc{Constitution}, and \textsc{Dexterity}. The other three are considered mental - \textsc{Intelligence}, \textsc{Wisdom}, and \textsc{Charisma}.
 
 In general, a perfectly average level 1 character would have 12 and 13 for most attributes, and 14 for one or two. 10 is the minimum you can have without taking minor penalties, and less than 8 in any attribute typically begins to accrue severe penalties as the game progresses. An attribute of 20 is considered incredibly good.
 
 Having an attribute score of 0 for any attribute incapacitates your character, and may actually kill them if they have it for too long, based on GM discretion.
 
+Each \textsc{Attribute} has a \textsc{Modifier}, which is calculated by $\stat{Attribute}/2 - 5$ rounded down. When you make a skill check relating to an attribute, you roll a twenty-sided die ($\dice 1 20$) and then add the \textsc{Modifier} corresponding to that attribute, and then add any \textsc{Skill Points} your character has in that skill (described further in the ``Skills'' section).
+
+All their attributes, corresponding modifiers, and descriptions, are listed below:
+
 \begin{description}
-\item[Strength] (Str) - used for tasks that require physical strength
+\item[\fauxsc{Strength}] (Modifier: \textsc{Str}) - used for tasks that require physical strength
 
-Strength also determines the amount of damage you deal barehanded and with physical attacks, as well as how far your character can move with a single move action in combat. A normal character should have at least 8 Strength. Any less means that they find it difficult just to move their own body around.
-\item[Constitution] (Con) - corresponds to the physical toughness of the character.
+\textsc{Strength} also determines the amount of damage you deal barehanded and with physical attacks, as well as how far your character can move with a single move action in combat. A normal character should have at least 8 \textsc{Strength}. Any less means that they find it difficult just to move their own body around.
 
-Constitution influences your number of hitpoints, changes how much damage you take, and determines how easily you can resist things like poison, disease, and the effects of strenuous labor.
+\item[\fauxsc{Constitution}] (Modifier: \textsc{Con}) - corresponds to the physical toughness of the character.
 
-A normal character should have at least 8 Constitution. Any less generally indicates that they are sickly or have something intrinsically wrong with their body that would cause them to die young even without exerting themselves.
-\item[Dexterity] (Dex) - Besides corresponding to how dextrous your character may be, this is also used as a measure of your reflexes. As such it is used to determine who goes first when a fight starts, as well as if an attempt at sleight of hand or pickpocketing was successful, as well as if you hit your intended target.
+\textsc{Constitution} influences your number of hitpoints, changes how much damage you take, and determines how easily you can resist things like poison, disease, and the effects of strenuous labor.
 
-A normal character should have at least 8 Dexterity. Any less than that means that they tend to trip over their own feet, and have trouble coordinating themselves.
-\item [Intelligence] (Int) - Used for both what your character knows, as well as their ability to figure stuff out.
+A normal character should have at least 8 \textsc{Constitution}. Any less generally indicates that they are sickly or have something intrinsically wrong with their body that would cause them to die young even without exerting themselves.
 
-Commonly used for things like crafting, repair, and knowledge checks (knowlege checks are a great way to get the GM to tell you something you don't know). It also may be used for hacking checks or other things stereotypically attributed to “intelligence.” Intelligence also influences the number of points you can invest into skills.
+\item[\fauxsc{Dexterity}] (Modifier: \textsc{Dex}) - Besides corresponding to how dextrous your character may be, this is also used as a measure of your reflexes. As such it is used to determine who goes first when a fight starts, as well as if an attempt at sleight of hand or pickpocketing was successful, as well as if you hit your intended target.
 
-A normal character should have at least 8 Intelligence. Any less means that they have trouble stringing together sentences, planning out the next few seconds of their life in their head, and in general making sense of the world.
-\item[Wisdom] (Wis) - Used for your ability to perceive things, your intuition, and your willpower.
+A normal character should have at least 8 \textsc{Dexterity}. Any less than that means that they tend to trip over their own feet, and have trouble coordinating themselves.
+
+\item [\fauxsc{Intelligence}] (Modifier: \textsc{Int}) - Used for both what your character knows, as well as their ability to figure stuff out.
+
+Commonly used for things like crafting, repair, and knowledge checks (knowlege checks are a great way to get the GM to tell you something you don't know). It also may be used for hacking checks or other things stereotypically attributed to “intelligence.” \textsc{Intelligence} also influences the number of points you can invest into skills.
+
+A normal character should have at least 8 \textsc{Intelligence}. Any less means that they have trouble stringing together sentences, planning out the next few seconds of their life in their head, and in general making sense of the world.
+
+\item[\fauxsc{Wisdom}] (Modifier: \textsc{Wis}) - Used for your ability to perceive things, your intuition, and your willpower.
 
 As a measure of your willpower, it is used to determine how easily you can fight off the influence of mind-altering substances or similar things. As a measure of your perception and intuition, it may be used to determine whether another character is bluffing, or gauge their true intentions. It is also a measure of your passive alertness to unusual or dangerous things while not directly looking for them. 
 
-Wisdom also influences the number of actions you get during a round of combat.
+\textsc{Wisdom} also influences the number of actions you get during a round of combat.
 
-A normal character should have at least 8 Wisdom. Any less than that means they have to exert tremendous mental effort just for basic awareness. A character with a Wisdom below 2 has trouble remembering to breathe.
-\item[Charisma] (Cha) - Used as a measure of your personability.
+A normal character should have at least 8 \textsc{Wisdom}. Any less than that means they have to exert tremendous mental effort just for basic awareness. A character with a \textsc{Wisdom} below 2 has trouble remembering to blink, breathe, and perform other biologically necessary tasks.
+
+\item[\fauxsc{Charisma}] (\textsc{Cha}) - Used as a measure of your personability.
 
 This is used for diplomacy, bluffing, acting, animal taming, and other similar things that rely on your ability to hold other people hostage with pure charm.
 
-Don't underestimate this mechanic, in the world of tabletop roleplaying, any lie you tell (“These aren’t the droids you’re looking for”) is a charisma-based bluff check weighted against a finite difficulty for the lie plus a wisdom-based sense-motive check on the part of whoever you're telling the lie too. With enough luck you should be able to convince the guard blocking the door that she's actually the color yellow, and should float off into the sky to rejoin the rest of the rainbow.
+Don't underestimate this mechanic, in the world of tabletop roleplaying, any lie you tell (``These aren’t the droids you’re looking for'') is a charisma-based bluff check weighted against a finite difficulty for the lie plus a wisdom-based sense-motive check on the part of whoever you're telling the lie too. With enough luck you should be able to convince the guard blocking the door that she's actually the color yellow, and should float off into the sky to rejoin the rest of the rainbow.
 
-A normal character should have a Charisma of 8 or more. Any less and they are instantly perceived as unlikeable by everyone around them. Characters with Charisma below 4 intrinsically dislike themselves as well (although they don't have to be a low Charisma character to dislike themselves).
+A normal character should have a \textsc{Charisma} of 8 or more. Any less and they are instantly perceived as unlikeable by everyone around them. Characters with \textsc{Charisma} below 4 intrinsically dislike themselves as well (although they don't have to be a low charisma character to dislike themselves).
 \end{description}
 
 Numbers for these core attributes are typically assigned in one of the following ways at level 1:
 \begin{enumerate}
-\item Roll 8 20-sided die and drop the lowest 2 rolls ($\dicedrop{8}{20}{2}$). You may assign each roll to each attribute score however you wish. Your GM may still ask you to adjust these numbers for balance
-\item Roll 6 20-sided die ($\dice{6}{20}$). If you have more than one roll that is less than 10, you may keep re-rolling the dice that are less than 10 until you only have one or no dice that show less than 10.
-\item Allocate points to each core attribute until the sum of all core attributes is 85.
-\item Repeatedly bribe your GM until they let you assign attributes as high as you like.
+\item Roll 8 20-sided die and drop the lowest 2 rolls ($\dicedrop{8}{20}{2}$). You may assign each roll to each \textsc{Attribute} however you wish. Your GM may still ask you to adjust these numbers for balance
+\item Roll 6 20-sided die ($\dice{6}{20}$). If you have more than one roll that is less than 10, you may keep re-rolling the dice that are less than 10 until you only have one or no dice that show less than 10. Then you may assign each roll to each \textsc{Attribute} however you wish.
+\item Allocate points to each \textsc{Attribute} until the sum of all core attributes is 85.
+\item Repeatedly bribe your GM until they let you assign \textsc{Attributes} as high as you like.
 \end{enumerate}
 
 Your GM will tell you by which method they prefer you to assign these attributes.
 
-These numbers are modified as your character grows. Your character starts at level 1 with the numbers you have assigned. With every level your character gains beyond level 1, you may typically add one additional point to an attribute of your choice. Note that if your character invests a level into a specialty class, they may not receive this point to invest.
+These numbers are modified as your character grows. Your character starts at level 1 with the numbers you have assigned. With every character level your character gains beyond level 1, you may typically add one additional point to an \textsc{Attribute} of your choice. Note that if your character invests a level into a specialty class, they may not receive this point to invest (described further in the ``Leveling up'' chapter).
 
-Rp20 makes this distinction between character levels and class levels. Whenever you level up, you may choose to level up your character, or invest it in a class that the GM is using for the campaign. In this system, it may actually be more general to say ``I have 8 levels'' than the usual ``I am level 8.''
+Rp20 makes this distinction between character levels and class levels. Whenever you level up, you may choose to level up your character level, or invest it in a class that the GM is using for the campaign. In this system, it may actually be more general to say ``I have 8 levels'' than the usual ``I am level 8.''
 
 \section{Calculated Attributes}
 Some attributes are calculated from other attributes rather than being defined independently. 
@@ -70,30 +79,33 @@ Some attributes are calculated from other attributes rather than being defined i
 For instance, for most situations, your core attributes are distilled into modifiers, numbers that are roughly proportional to the attribute. Those are used in checks, rather than using the core attributes directly. What follows is a list of these calculated attributes.
 
 \begin{description}
-	\item[Modifiers] - There is one modifier corresponding to each attribute. The modifier starts at 0 with 10 points in an attribute., and increases by 1 for every two additional points. Whenever you make a skill check relating to an attribute, you will roll a d20, then add your modifier, then add points you have in that skill and any bonuses. Another way of saying this is that the modifier is calculated by $(Attribute/2) - 5 $.
-	\item[Hitpoints] - Your maximum hitpoints are calculated by $Level*(Con+1) + Constitution$. Note that both the Constitution attribute, and the Con modifier are used.
+	\item[Modifiers] - There is one \textsc{Modifier} corresponding to each attribute. Each \textsc{Modifier} starts at 0 with 10 points in an attribute, and increases by 1 for every two additional points.
 	
-	The Level used here is the character level, and does not include levels you have invested in classes. Certain specialty classes may augment your maximum hitpoints in other ways.
+	Whenever you make a skill check relating to an \textsc{Attribute}, you will roll $\dice 1 20$, then add the corresponding \textsc{Modifier}, then add points you have in that skill and any bonuses. Modifiers are calculated by $(\stat{Attribute}/2) - 5 $ rounded down.
 	
-	Having less than a -1 Con modifier will actually slowly decrease your health as you level up. This corresponds to a Constitution of 7 or less, indicating a sickly character.
+	\item[Hitpoints] - Your \textsc{Maximum Hitpoints} are calculated by $$\stat{Character Level} \times (\stat{Con}+1) + \stat{Constitution}$$. Note that both the \textsc{Constitution} attribute \emph{and} the \textsc{Con} modifier are used.
+	
+	The level used here is the \textsc{Character Level}, and does not include levels you have invested in classes. Certain specialty classes may augment your maximum hitpoints in other ways.
+	
+	Having less than a -1 \textsc{Con} modifier will actually slowly decrease your health as you level up. This corresponds to a \textsc{Constitution} of 7 or less, indicating a sickly character.
 
 	\item[Saving Throws] - There are some instances in which you would be paralyzed by a taser, get blinded by a flashbang, or be otherwise inconvenienced where quick reflexes, being tough or summoning proper willpower would save you from said inconvenience.
 	
-	Many weapons and environmental factors will have ways for you to avoid inconvenience by making a saving throw. A saving throw is just the pertinent attribute plus 1d20. Note that these are based on attributes, not the modifiers! There are three kinds of saving throws: reflex saves, will saves, and fortitude saves. These are standard to many roleplaying systems.
+	Many weapons and environmental factors will have ways for you to avoid inconvenience by making a saving throw. A saving throw is just the pertinent attribute plus 1d20. Note that these are based on \textsc{Attribute}s, not the \textsc{Modifier}s! There are three kinds of saving throws: \textsc{Reflex} saves, \textsc{Will} saves, and \textsc{Fortitude} saves. These are standard to many roleplaying systems.
 	\begin{description}
-		\item[Reflex] saves are where quick thinking and movement gets you out of a situation, based on your Dexterity attribute. (The attribute, not the modifier!)
-		\item[Will] saves are where willpower gets you out of a situation, based on your Wisdom attribute (not the modifier!). 
-		\item[Fortitude] saves are where being physically robust gets you out of a situation, based on your Constitution attribute (not the modifier).
+		\item[\fauxsc{Reflex}] saves are where quick thinking and movement gets you out of a situation, based on your Dexterity attribute. (The attribute, not the modifier!)
+		\item[\fauxsc{Will}] saves are where willpower gets you out of a situation, based on your Wisdom attribute (not the modifier!). 
+		\item[\fauxsc{Fortitude}] saves are where being physically robust gets you out of a situation, based on your Constitution attribute (not the modifier).
 		These may all be modified by equipment or class characteristics.
 	\end{description}
 	
-	\item[Armor Class] - Armor Class, or AC, is another calculated attribute standard to many roleplaying systems. Armor Class defines how difficult it is to land a damaging blow on your character.
+	\item[\fauxsc{Armor Class}] - \textsc{Armor Class}, often abbreviated as AC, is another calculated attribute standard to many roleplaying systems. \textsc{Armor Class} defines how difficult it is to land a damaging blow on your character.
 	
 	This may be because your character is covered in armor, but it may also be because your character is flexible and dodges easily.
 	
-	Armor Class by default is based on your Dexterity attribute, and adds bonuses to it based on how much armor you are wearing. Note that in Rp20, by default, for all Dex related skill checks you will take a penalty equal to the bonus your armor gives to your AC, unless you have invested in Armor Skill.
+	\textsc{Armor Class} by default is based on your \textsc{Dexterity} attribute, and adds bonuses to it based on how much armor you are wearing. Note that in Rp20, by default, for all \textsc{Dex} related skill checks you will take a penalty equal to the bonus your armor gives to your AC, unless you have invested in \textsc{Armor Skill}.
 	
-	\item[Skill Points] - All characters, at level 1, start with 10 skill points to invest. With character level you gain, you may add a number of points equal to your Int modifier. You gain a minimum of 1 skill point every level even if you have a 0 or negative Int modifier.
+	\item[\fauxsc{Skill Points}] - All characters, at level 1, start with 10 \textsc{Skill Points} to invest. With character level you gain, you may add a number of points equal to your Int modifier. You gain a minimum of 1 skill point every level even if you have a 0 or negative \textsc{Int} modifier.
 	
 	For every class level you invest in, you also gain 1 skill point. Some classes may give you more skill points for investing a level in them.
 \end{description}
@@ -101,103 +113,126 @@ For instance, for most situations, your core attributes are distilled into modif
 Veteran roleplayers will notice that Rp20 minimizes randomness in these calculated attributes. The GM may still ask you to adjust them for balance regardless.
 
 \section{Skills}
-We've mentioned skills a few times now, without really going into how they work. Every character has a set of skills. If you’ve played other roleplaying systems, skills are pretty much done the standard way. The max number of points you can put into any skill is equal to twice your character level.
+We've mentioned skills a few times now, without really going into too much detail of how they work. Every character has a set of skills. If you’ve played other roleplaying systems, skills are done the standard way. You can put a number of skill points into any skill. The max number of points you can put into any skill is equal to twice your character level. Whenever you try to perform the skill, you roll $$\dice{1}{20} + \stat{Skill Points} + \stat{Modifier}$$ and the GM compares it against the difficulty of the skill to determine if you are successful and how successful you are.
 
-Veteran role-players will notice that Rp20 seems to encourage min-maxing to some extent. This is intentional. The system was built to encourage players and GM’s to break the game on each other. Skills are no different in this system.
+All characters, at level 1, start with 10 \textsc{Skill Points} to invest into any skills they choose. With each character level you gain, you may add a number of points equal to your \textsc{Int} modifier and distribute them among skills as you see fit.
 
-All characters, at level 1, start with 10 skill points to invest. With each character level you gain, you may add a number of points equal to your Int modifier and distribute them among skills as you see fit.
+You will add a minimum of 1 skill point for every \textsc{Character Level} you gain, that is to say- characters with a negative \textsc{Int} modifier or a modifier of 0 still receive 1 point with each level gained. You may not remove skill points from a skill once you have invested in it, unless given explicit permission from the GM.
 
-You will add a minimum of 1 skill point each level, that is to say- characters with a negative Int modifier or a modifier of 0 still receive one point with each level gained. You may not remove skill points from a skill once you have invested in it, unless given explicit permission from the GM.
-
-By default the limit to how many skill points you may put in a skill is twice your character level, but your GM may decide to limit the maximum number of points to your character level, or choose another limit. Note that you do not receive additional skill points if you invested your level in a class level, you only receive these points for investing in a character level.
+By default the limit to how many \textsc{Skill Points} you may put in a skill is twice your character level, but your GM may decide to limit the maximum number of points to your character level, or choose another limit. Note that you do not receive additional skill points if you invested your level in a class level, you only receive these points for investing in a \textsc{Character Level}.
 
 There is technically no restriction on what kind of skill you can give your character points in, but they should not be too broad. This is up to GM discretion.
 
 Common skills to put points into are listed below, with the corresponding modifier listed in square brackets. If a skill has an alternate name, it is listed as Name/Alternate Name. You need only list one of the names on your character sheet.
 
 \begin{description}
-\item[Sneak] [Dex] - Move silently and unnoticed by other people.
-\item[Hide] [Dex] - Used to place an object in one spot unnoticed by other people. 
-\item[Break/Sunder] [Str] - Used to break something, such as enemy weapons, enemy armor and the like.
+\item[Sneak] [\textsc{Dex}] - Move silently and unnoticed by other people.
+
+\item[Hide] [\textsc{Int}] - Used to place an object in one spot unnoticed by other people. 
+
+\item[Break/Sunder] [\textsc{Str}] - Used to break something, such as enemy weapons, enemy armor and the like.
 
 For every 10 you get on your break check, you may break an item or weapon that is one additional craft grade higher than the weapon you are using. If you are trying to break something barehanded, your craft grade is considered equal to your character level (just the character level, not all of your levels together). A critical success on a break skill can let you break something up to 5 craft grades higher than normal.
 
 A legendary item may only be broken by another legendary item with a critically successful break skill.
 
-A critical failure on a break check will cause the item you are using to break instead of the item you are trying to break. If you are trying to break something barehanded and critically fail you will take (Craft grade)d6 damage, using the craft grade of the object you are trying to break. Craft grades are discussed further in the ``Items, Loot, and Crafting'' section.
+A critical failure on a break check will cause the item you are using to break instead of the item you are trying to break. If you are trying to break something barehanded and critically fail you will take $\dice{\stat{Craft Grade}}{6}$, using the craft grade of the object you are trying to break.
 
-\item[Tank/Block] [Con] - Used to shrug off damage done to your character. You must prepare this as an action before the damage occurs (described more in the ``Combat'' section).
+If break is used on an entity other than an item, it deals 2 damage for every 10 on the check.
+
+\textsc{Craft Grade} is discussed further in the ``Items, Loot, and Crafting'' section.
+
+\item[Tank/Block] [\textsc{Con}] - Used to shrug off damage done to your character. You must prepare this as an action before the damage occurs (described more in the ``Combat'' section).
 For every 10 you get on a tank check, you may remove one damage die from the source of damage. Your character may choose which die to remove.
 
 A critically successful Tank check negates all damage from the next damage source. A tank check of less than 5 causes your character to take one additional die of damage from the source, by rolling another die of the largest kind used in the damage calculation.
 
 A critical failure on a tank check causes the damage source to roll for damage again, and your character will take both the initial and second rolls.
 
-Any successful Tank check also halves knockback.
-\item[Parry] [Dex] - Used to deflect a source of damage. You may not parry any area of effect sources of damage.
+Any successful Tank check also halves knockback, and a critically successful Tank check removes all knockback.
+
+\item[Parry] [\textsc{Dex}] - Used to deflect a source of damage. You may not parry any area of effect sources of damage.
 
 Your parry check must exceed the check the damage source made to determine if it hit you. Upon a parry that succeeds in excess of 5, you may choose to perform an attack check to try to redirect the damage to a specific target.
 
 A failed parry check has no impact on incoming damage, and a critically failed parry check causes your character to take double damage.
-\item[Feint/Juke] [Cha] - Feint may be used to trigger prepared actions that another character has made. Your feint check is rolled against the other character’s sense motive check.
+
+\item[Feint/Juke] [\textsc{Cha}] - Feint may be used to trigger prepared actions that another character has made. Your feint check is rolled against the other character’s sense motive check.
 
 If your Feint check exceeds their sense motive check, you may trigger one prepared action. For every 10 that your feint check exceeds their sense motive check by, you may trigger an additional prepared action that meets the same condition.
 
 You must specify what your feint is appearing to do -- if you are giving the impression your character is moving, or if you are giving the impression your character is attacking, or giving the impression that your character is performing some other action or skill. You will only set off prepared actions that are conditional based on if your character were actually performing the action they are pretending to perform.
-\item[Sleight of Hand/Pickpocket] [Dex] - Used for a variety of things. It is most commonly used to remove items from another character’s inventory without them noticing, or to place items within another characters inventory without them noticing.
+
+\item[Sleight of Hand/Pickpocket] [\textsc{Dex}] - Used for a variety of things. It is most commonly used to remove items from another character’s inventory without them noticing, or to place items within another characters inventory without them noticing.
 
 Sleight of Hand allows you to cheat at games of chance, but also allows you to fool people about the location or condition of objects.
 Any effect you’ve seen in any magic show is fair game, but many will be difficult to pull off.
 
 Typically, for each object you are trying to mislead an observer about during the desired effect, you must roll a Sleight of Hand check, and they may make a separate Perception check for each of these objects. If they succeed at a single Perception check, you fail at producing the desired effect.
-\item[Bluff] [Cha] - Used to convince another character of a falsehood. This can be a very powerful mechanic if the other character is unable to tell that they are being lied too.
+
+\item[Bluff] [\textsc{Cha}] - Used to convince another character of a falsehood. This can be a very powerful mechanic if the other character is unable to tell that they are being lied too.
 
 Some GM’s treat Feint and Bluff interchangeably. Be sure to ask if this is the case.
-\item[Diplomacy/Persuasion/Charm] [Cha] - Used to convince another character to perform an action or change their view of something. Can also be used to seduce or charm another character.
-\item[Sense Motive] [Wis] - Used to tell if someone is lying or has an ulterior motive. Sense Motive is the counter-skill to the Bluff and Diplomacy skills.
-\item[Perception] [Wis] - This is an ability to passively notice details or hidden things. Perception is one of the counter-skills to the Sneak and Hide skills.
-\item[Search] [Wis] - This is an ability used to actively find details or hidden things. This is also one of the counter skills to the Sneak and Hide skills. Some GM’s may treat Perception and Search interchangeably. Be sure to ask your GM how this is handled.
-\item[Tame/Handle Animal] [Cha] - This skill is used to get animals to do develop loyalty to you.
-\item[Performance] [Cha] - Used to juggle, dance, sing, and act. The Performance skill is also used when you are trying to fake a situation, and convince onlookers that it is real, or intimidate an opponent into giving up.
+
+\item[Diplomacy/Persuasion/Charm] [\textsc{Cha}] - Used to convince another character to perform an action or change their view of something. Can also be used to seduce or charm another character.
+
+\item[Sense Motive] [\textsc{Wis}] - Used to tell if someone is lying or has an ulterior motive. Sense Motive is the counter-skill to the Bluff and Diplomacy skills.
+
+\item[Perception] [\textsc{Wis}] - This is an ability to passively notice details or hidden things. Perception is one of the counter-skills to the Sneak and Hide skills.
+
+\item[Search] [\textsc{Wis}] - This is an ability used to actively find details or hidden things. This is also one of the counter skills to the Sneak and Hide skills. Some GM’s may treat Perception and Search interchangeably. Be sure to ask your GM how this is handled.
+
+\item[Tame/Handle Animal] [\textsc{Cha}] - This skill is used to get animals to do develop loyalty to you.
+
+\item[Performance] [\textsc{Cha}] - Used to juggle, dance, sing, and act. The Performance skill is also used when you are trying to fake a situation, and convince onlookers that it is real, or intimidate an opponent into giving up.
 
 The Performance skill's most versatile use is to provide buffs to your allies and penalties to your enemies. For every 10 on a performance check, you may provide every ally who can hear or see you with an additional +1 to any skill or special skill of your choice, or you may provide every enemy who can hear or see you with an additional -1 to any skill or special skill of your choice. You must choose which skill to buff or penalize before you roll for performance. These effects last for one round.
 
 A critically failed performance check penalizes your allies by -2 on the skill check you chose, and buffs your enemies by +2 on the skill check you chose.
-\item[Disguise] [Cha] - Used to alter your appearance.
-\item[Drive/Pilot] [Dex] - Used to handle a vehicle. This is also added to your attack check when trying to ram someone with a vehicle.
-\item[Jump] [Str] - This skill is used to jump, both vertically, and across a horizontal gap. Since the jump skill is used for movement, there are a set of rules associated with it, described in more detail in the “Combat” section. In general, you may travel a horizontally a number of feet equal to half your roll, and vertically a number of feet equal to a quarter of your roll.
-\item[Hold Breath/Abstain] [Con] - Used to hold your breath or abstain from another basic biological function (not eating, not urinating, etc.) for an extended period of time.
-\item[Balance] [Dex] - Used to not fall down in tricky situations or small areas.
-\item[Climb] [Str] - Used to scale a vertical or near-vertical slope.
-\item[Tumble/Roll/Dodge] [Dex] - Used for several things. This skill can reduce falling damage, get behind opponents, and dodge damage. A tumble can automatically move you the equivalent of your character’s normal move distance.
+
+\item[Disguise] [\textsc{Cha}] - Used to alter your appearance.
+
+\item[Drive/Pilot] [\textsc{Dex}] - Used to handle a vehicle. This is also added to your attack check when trying to ram someone with a vehicle.
+
+\item[Jump] [\textsc{Str}] - This skill is used to jump, both vertically, and across a horizontal gap. Since the jump skill is used for movement, there are a set of rules associated with it, described in more detail in the “Combat” section. In general, you may travel a horizontally a number of feet equal to half your roll, and vertically a number of feet equal to a quarter of your roll.
+
+\item[Hold Breath/Abstain] [\textsc{Con}] - Used to hold your breath or abstain from another basic biological function (not eating, not urinating, etc.) for an extended period of time.
+
+\item[Balance] [\textsc{Dex}] - Used to not fall down in tricky situations or small areas.
+
+\item[Climb] [\textsc{Str}] - Used to scale a vertical or near-vertical slope.
+
+\item[Tumble/Roll/Dodge] [\textsc{Dex}] - Used for several things. This skill can reduce falling damage, get behind opponents, and dodge damage. A tumble can automatically move you the equivalent of your character’s normal move distance.
 
 When used to reduce falling damage, every 10 on your tumble check removes 1d6 from the falling damage roll. Normal falling damage is 1d6 for every 10 feet fallen.
 
-\item[Swim] [Str] - Used to swim in a liquid medium against a current. In situations for characters that fly you may choose to use a ``Fly'' skill instead for something similar. 
+\item[Swim] [\textsc{Str}] - Used to swim in a liquid medium against a current. In situations for characters that fly you may choose to use a ``Fly'' skill instead for something similar. 
 
 The standard rules for swim and fly are that a character may move 2 spaces relative to the fluid for every 10 they get on a swim check.
 
-\item[Navigate] [Wis] - Used to find your way to a desired location.
+\item[Navigate] [\textsc{Wis}] - Used to find your way to a desired location.
 
 For every 10 on a navigate check, your GM will rule out 1 additional incorrect path to your intended destination. A critical fail provides no additional effect. A critical success instantly tells you the correct direction.
 
-\item[Heal] [Wis] - Used to restore an organism's health.
+\item[Heal] [\textsc{Wis}] - Used to restore an creature's health.
 
-For every 10 on your check, you may roll an additional d6 to determine how many hitpoints you restore. In other words, you heal $(Heal/10)d6$.
+For every 10 on your check, you may roll an additional d6 to determine how many hitpoints you restore. In other words, you heal $$\left( \frac{\stat{Heal Check}}{10} \right) d6$$
 
-A heal check of less than 5 causes you to hurt the organism you are healing for 1 damage.
+A heal check of less than 5 causes you to hurt the creature you are healing for 1 damage.
 
-A critical fail on a heal check has the effect of repeating the last damage taken by the organism.
+A critical fail on a heal check has the effect of repeating the last damage taken by the creature.
 
-\item[Repair] [Int] - Used to repair a device or machine that has taken non-critical damage. For every 10 on your roll, you may repair an item of 2 additional craft grades.
+\item[Repair] [\textsc{Int}] - Used to repair a device or machine that has taken non-critical damage. For every 10 on your roll, you may repair an item of 2 additional craft grades.
 
-\item[Disable Device] [Int] - This skill disables a machine or device. It can also be used to pick a lock. For every 10 on your roll, you may disable a machine of 2 additional craft grades.
+\item[Disable Device] [\textsc{Int}] - This skill disables a machine or device. It can also be used to pick a lock. For every 10 on your roll, you may disable a machine of 2 additional craft grades.
 
-Someone trying to later repair this device must exceed the roll you got to disable the device.
+Someone trying to later repair this device must exceed the roll you got to repair the device.
 
-\item[Knowledge (History/Science/Engineering/Etc.)] [Int] - You must pick one specific category for each skill. Knowledge checks are used to find out if your character is aware of some fact about the world. They are an excellent way to get the GM to tell you something you don’t know.
-\item[Craft (Device/Structure/Chemical/Etc.)] [Int] – You must pick one specific category for each skill. The category of the craft is honestly mostly cosmetic, all crafted items still follow the craft grade rules in terms of what attributes they can provide.
-\item[Use Device] [Int] – Used to operate unfamiliar devices. This skill is also used to hack or find information through a computer.
+\item[Knowledge (History/Science/Engineering/Etc.)] [\textsc{Int}] - You must pick one specific category for each skill. Knowledge checks are used to find out if your character is aware of some fact about the world. They are an excellent way to get the GM to tell you something you don’t know.
+
+\item[Craft (Device/Structure/Chemical/Etc.)] [\textsc{Int}] – You must pick one specific category for each skill. The category of the craft is honestly mostly cosmetic, all crafted items still follow the craft grade rules in terms of what attributes they can provide.
+
+\item[Use Device] [\textsc{Int}] – Used to operate unfamiliar devices. This skill is also used to hack or find information through a computer.
 \end{description}
 
 \section{Special Skills}
@@ -222,13 +257,13 @@ A few special cases are also listed below:
 \item[Weapon Skill] (long-ranged, melee) corresponds to your characters ability to use a melee weapon that reaches more than 4 feet (2 squares) away from the square they are currently on. Any melee weapon with a reach shorter than that is considered short range.
 \end{description}
 
-\item[Multi-Wield Skill] - By default, wielding more than one weapon at the same time gives penalties to your attack check. The penalty starts at -7 for two weapons, goes up to -15 for three weapons, and wielding more weapons than that simultaneously takes a penalty equal to the previous two weapon numbers (e.g. -7-15 = -22 for four weapons, -15-22=-37 for five weapons, and so on. This is explained further in the Combat section). These penalties exist regardless of the number of limbs on your character.
+\item[Multi-Wield Skill] - By default, wielding more than one weapon at the same time gives penalties to your attack check. The penalty starts at $-7$ for two weapons, goes up to -15 for three weapons, and wielding more weapons than that simultaneously takes a penalty equal to the previous two weapon numbers (e.g. $-7-15 = -22$ for four weapons, $-15-22=-37$ for five weapons, and so on. This is explained further in the ``Combat'' chapter). These penalties exist regardless of the number of limbs on your character.
 
 Multi-wield skill negates these penalties. Skill points in multi-wield can only negate the penalty, they cannot add to your attack check beyond that.
 
 Putting a proficiency on multi-wield skill lets you treat the penalty as if you were wielding one fewer weapon than you actually are. E.g. you can play a triple-sword wielding character who only needs to put 7 points in multi-wield skill that he is proficient in, because he only takes the -7 penalty for double swords.
 
-\item[Grapple/Escape Artist] [Str/Dex] - Grapple is a special skill simply because it can use one of two attributes. Your character can choose to use whether to use Str or Dex at the time of using the skill, and the bonus from skill points applies regardless of which attribute is used.
+\item[Grapple/Escape Artist] [\textsc{Str}/\textsc{Dex}] - Grapple is a special skill simply because it can use one of two attributes. Your character can choose to use whether to use Str or Dex at the time of using the skill, and the bonus from skill points applies regardless of which attribute is used.
 
 The grapple skill can be used to disarm a character, both to initiate a grapple or a hold on another character, or to escape a grapple or hold that another character has on your character. Grappling is described further in the ``Combat'' section.
 
@@ -247,7 +282,7 @@ Your character’s affinity may not change after creation, and every character m
 \section{Proficiencies}
 Starting at level 3, a character may gain proficiency in one skill every 3 levels (level 3, 6, 9, 12, etc.). If you are proficient in a skill, it doubles the contribution of the core attribute to any check you perform for that skill.
 
-For example, if a character is proficient in jumping with 5 skill points in jumping, and their Str modifier is 4, a jump check will be determined by 1d20 + 5 + 2*4, rather than 1d20 + 5 + 4.
+For example, if a character is proficient in jumping with 5 skill points in jumping, and their Str modifier is 4, a jump check will be determined by $\dice{1}{20} + 5 + (2\times4)$, rather than $\dice{1}{20} + 5 + 4$.
 
 You cannot critically fail a check for a skill you are proficient in. You do not re-roll, your check is what it is, but none of the severe penalties of a critical fail will occur. You can still store a roll of 1 as a critical fail for the Judicious style (described in the next section).
 
@@ -262,22 +297,30 @@ Unless otherwise specified, bonuses (and penalties) from these styles may only b
 
 \begin{description}
 \item[Adept] - If your character is adept, you may add a bonus of half your character level to all checks within the situation of the style.
+
 \item[Systematic] - If your character is systematic, add a bonus of 1 to every check within the situation of the style. This bonus increases by 1 for every consecutive success until the bonus is equal to your character level, and then remains at your character level. If you fail a check, the bonus resets to 1.
+
 \item[Lucky] - If your character is lucky, a number of times a day (in-game) you may flip a coin after rolling a die in a situation. If the coin returns heads, you may replace your roll with the highest possible number, counting as a critical success if used in a skill check. You may do this up to 7 times a day, or a number of times equal to your character level- whichever number is smaller.
 
-You may use this ability multiple times for the same roll to try to obtain a critical success, so long as you do so before your GM tells you the outcome of the event. If you have poor luck with coin flips in real life, it is not recommended to choose a Lucky style for your character.
+You may use this ability multiple times for the same roll to try to obtain a critical success, so long as you do so before your GM tells you the outcome of the event. If you have poor luck with coin flips in real life, it is not recommended to choose a Lucky style for your character. It's probably not going to counteract your luck. Sorry.
+
 \item[Confident] - If your character is confident, once a day, upon making a check you may choose to re-use that roll for the next several consecutive checks in that situation, as if the die came up with the same number each time. The number of times you may reuse a roll is up to 10 times, or a number of times equal to your character level- whichever number is smaller.
+
 \item[Judicious] - Whenever you roll a critical success or a critical failure in the situation of the style, you may choose to store the roll for future use, and re-roll the die for the current roll. If you have one or more stored rolls, you may discard your current roll to replace it with any of your stored rolls. You may store a number of rolls up to your character level. If you already have your maximum number of rolls stored, you may no longer store new rolls for later use.
+
 \item[Awkward] - After the start of each in-game day, within a number of checks within the situation of the style up to 10 or your character level (whichever is less), you must roll a critical success. If you do not roll a critical success within this number of checks, every following check in that situation for the rest of the day is an automatic critical failure. However, if you roll a critical success within this number of checks, every following check for the rest of the day in that situation is a critical success.
+
 \item[Duplicitous] - In any situation within the style, where you have a check opposing someone else’s (an NPC or a player character), you may steal their roll and replace it with yours, as if their die rolled your number and your die rolled their number. Note that this does not include bonuses that are added to the roll for the check. Every day, you may do this up to a number of times equal to your character level. You may only do this every other check at most, in other words, you may not use Duplicitous for two consecutive checks in the same situation.
 
 For checks where the GM explicitly tells you whether you were successful or not, you may do this AFTER the GM tells you whether your check was successful or not. You may not use this style multiple times for the same check.
 
 Duplicitous pairs well with characters reliant on skills such as bluff, perform, disguise, hide, sneak, grapple, and parry, as it enables you to negate the counter skills that other characters use on yours. A martially duplicitous character may also use the style exchange the die rolls from an initiative check.
+
 \item[Inept] - If your character is inept, they take a penalty equal to their character level to every check within the situation of the style. However, they take a bonus of half of their character level for all other checks.
+
 \item[Oblivious] - You may trigger the Oblivious style up to a number of times a day equal to your character level. If your character is oblivious, you may trigger oblivious by saying to the GM “what did you say?” or “what was that?” or any other request for repetition of a previous phrase while out of character. You may do this AFTER the GM has told you the outcome. This will ignore the current roll and force a re-roll.
 
-You may reuse this style multiple times for the same check but it will burn additional uses of this style. Note that if your character is oblivious, even accidentally saying “what did you say” or equivalent phrases while out of character will trigger a re-roll and burn a use of this style.
+You may reuse this style multiple times for the same check but it will burn additional uses of this style. Note that if your character is oblivious, even accidentally saying “what did you say” or equivalent phrases while out of character will trigger a re-roll and burn a use of this style as long as your character is within the situation of the style.
 \end{description}
 
 To give an example of assigning a style, you may say, for instance, that your character is Martially Awkward. Then whenever your character is in combat, the rules of the Awkward style apply.

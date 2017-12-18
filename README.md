@@ -47,6 +47,7 @@ All changes to this project will be logged in this section.
 
 #### Modified
 - Attribute for the "Hide" skill changed to Int.
+- Attacking section in Combat has codified rules for headshots and trying to shoot specific body parts.
 - Items Loot and Crafting section has a final section for clarity.
 - Buffs in the Items Loot and Crafting has codified giving an item hitpoints.
 - Equations have all been made neat and standardized.

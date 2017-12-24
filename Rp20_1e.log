@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.13)  17 DEC 2017 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.13)  24 DEC 2017 23:37
 entering extended mode
 **./Rp20_1e.tex
 (Rp20_1e.tex
@@ -680,15 +680,15 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Overfull \hbox (7.70134pt too wide) in paragraph at lines 168--169
+Overfull \hbox (7.70134pt too wide) in paragraph at lines 170--171
 []\OT1/cmr/m/n/12 [\OT1/cmr/m/sc/12 Dex\OT1/cmr/m/n/12 ] - Used for a va-ri-ety
  of things.
  []
 
+[12]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[12]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -711,7 +711,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Overfull \hbox (3.66508pt too wide) in paragraph at lines 233--234
+Overfull \hbox (3.66508pt too wide) in paragraph at lines 235--236
 []\OT1/cmr/m/n/12 [\OT1/cmr/m/sc/12 Int\OT1/cmr/m/n/12 ] - You
  []
 
@@ -719,7 +719,7 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 
-Overfull \hbox (10.66052pt too wide) in paragraph at lines 235--236
+Overfull \hbox (10.66052pt too wide) in paragraph at lines 237--238
 []\OT1/cmr/m/n/12 [\OT1/cmr/m/sc/12 Int\OT1/cmr/m/n/12 ]  You must pick
  []
 
@@ -737,13 +737,13 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no  in font cmr12!
 
-Overfull \hbox (72.69495pt too wide) in paragraph at lines 250--251
+Overfull \hbox (72.69495pt too wide) in paragraph at lines 252--253
 []\OT1/cmr/m/n/12 (short-ranged/long-ranged, bare-handed/melee/projectile/beam)
 
  []
 
 
-Overfull \hbox (2.27359pt too wide) in paragraph at lines 250--251
+Overfull \hbox (2.27359pt too wide) in paragraph at lines 252--253
 \OT1/cmr/m/n/12 weapon skill. For ex-am-ple: Weapon Skill (long-ranged beam). 
  []
 
@@ -752,17 +752,17 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Overfull \hbox (11.07336pt too wide) in paragraph at lines 258--259
+Overfull \hbox (11.07336pt too wide) in paragraph at lines 260--261
 []\OT1/cmr/m/n/12 (long-ranged, bare-handed) cor-re-sponds to your
  []
 
 
-Overfull \hbox (8.78867pt too wide) in paragraph at lines 259--260
+Overfull \hbox (8.78867pt too wide) in paragraph at lines 261--262
 []\OT1/cmr/m/n/12 (long-ranged, melee) cor-re-sponds to your char-
  []
 
 
-Overfull \hbox (1.06804pt too wide) in paragraph at lines 264--265
+Overfull \hbox (1.06804pt too wide) in paragraph at lines 266--267
 []\OT1/cmr/m/n/12 Multi-wield skill negates these penal-ties. Skill points in m
 ulti-
  []
@@ -935,18 +935,18 @@ g\OML/cmm/m/it/12 =\OMS/cmsy/m/n/12 f[]g$
  []
 
 [46] [47] [48] [49] [50]
-Overfull \hbox (62.01268pt too wide) in paragraph at lines 192--193
+Overfull \hbox (62.01268pt too wide) in paragraph at lines 193--194
 \OT1/cmr/m/n/12 wielder. You may re-duce the craft grade by $\OMS/cmsy/m/n/12 f
 []g\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 8$
  []
 
 [51] [52]
-Overfull \hbox (1.49074pt too wide) in paragraph at lines 228--229
+Overfull \hbox (1.49074pt too wide) in paragraph at lines 229--230
 \OT1/cmr/m/n/12 How-ever, for ev-ery 10 on a craft check that a char-ac-ter rol
 ls ABOVE
  []
 
-) [53] [54]
+[53]) [54]
 \openout2 = `GuidelinesForGMs.aux'.
 
  (GuidelinesForGMs.tex
@@ -1034,7 +1034,7 @@ pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb>
-Output written on Rp20_1e.pdf (62 pages, 267848 bytes).
+Output written on Rp20_1e.pdf (62 pages, 268230 bytes).
 PDF statistics:
  495 PDF objects out of 1000 (max. 8388607)
  98 named destinations out of 1000 (max. 500000)

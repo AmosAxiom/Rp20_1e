@@ -38,6 +38,11 @@ make
 ## Changelog
 All changes to this project will be logged in this section.
 
+### [0.7.5] 2017-12-24
+#### Modified
+- Crafting- penalty for ammunition now has a larger cost savings to the main item.
+- Skill points per level cap at 6. I uh... had forgotten to write this down.
+
 ### [0.7.4] 2017-12-17
 #### Added
 - Crafting - penalties now has rules for ammunition.

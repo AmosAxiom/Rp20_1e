@@ -22,10 +22,10 @@
 \contentsline {subsection}{\numberline {4.1.3}Step 3: Buffs}{47}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}Step 4: Penalties}{50}{subsection.4.1.4}
 \contentsline {subsection}{\numberline {4.1.5}Step 5: Conditionality}{52}{subsection.4.1.5}
-\contentsline {subsection}{\numberline {4.1.6}Finalizing your Item}{52}{subsection.4.1.6}
+\contentsline {subsection}{\numberline {4.1.6}Finalizing your Item}{53}{subsection.4.1.6}
 \contentsline {section}{\numberline {4.2}Examples}{53}{section.4.2}
 \contentsline {section}{\numberline {4.3}Crafting}{53}{section.4.3}
-\contentsline {section}{\numberline {4.4}Loot Guidelines}{53}{section.4.4}
+\contentsline {section}{\numberline {4.4}Loot Guidelines}{54}{section.4.4}
 \contentsline {chapter}{\numberline {5}Guidelines For GM's}{55}{chapter.5}
 \contentsline {section}{\numberline {5.1}Awarding Levels}{55}{section.5.1}
 \contentsline {section}{\numberline {5.2}Difficulty Check Guidelines}{57}{section.5.2}
